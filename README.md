@@ -18,6 +18,7 @@ const static bool isControl = true;
 };
 ```
 **注意打开控制功能一定要确定是否具备相应的io口以及pwm**
+
 **io及pwm可以在widget.cpp中widget的构造函数中查看**
 ```
 Widget::Widget(QWidget *parent) :
